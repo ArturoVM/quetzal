@@ -1,0 +1,22 @@
+proc suma_y_mult(a int, b int, c int) int {
+	let z int = 4;
+	let sum int = suma(a, b);
+	let m int = mult(sum, c);
+	return m;
+}
+
+proc sq(a int) int {
+	let c int = mult(a, a);
+	return c;
+}
+
+proc main() {
+	let a int = 5;
+	let resultado int = suma_y_mult(a, 10, 6);
+	print(resultado);
+	let b int = sq(6);
+	print("\n");
+	print(b);
+	let hola string = "\nHello world!";
+	print(hola);
+}
